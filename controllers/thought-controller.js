@@ -36,7 +36,8 @@ const thoughtController = {
         res.sendStatus(400);
       });
   },
-   // create Thought
+
+  // create Thought
   // push the created thought's _id to the associated user's thoughts array field
   createThought({ params, body }, res) {
     Thought.create(body)
