@@ -4,6 +4,8 @@ This is an API for a social network web application where users can share their 
 
 ## Installation
 
+To use this app you will need to download and install the Terminal for Mac or GitBash for Windows. You may also need to install node.js, npm, MongoDB and insomnia to test the project. You will open the project in the code editor of your choice and then open the terminal and type <span style="color:orange">"npm install"</span> or "npm i" to install all the dependencies required. After installing MongoDB, on your terminal or GitBash you will need to type <span style="color:green">"mongod"</span> to start the server, this will allow a successfully connection with the project. Finally you will be able to start the project typing <span style="color:red">"npm start"</span> on your terminal or GitBash. And that is it, now you are able to test the code with insomnia!
+
 1. Clone the repository
 2. Run `npm install` to install the required dependencies
 3. Start the server with `npm start`
